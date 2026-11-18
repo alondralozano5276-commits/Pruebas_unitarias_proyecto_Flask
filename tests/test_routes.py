@@ -26,3 +26,5 @@ class RoutesTestCase(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+# Prueba de integración continua con GitHub Actions 

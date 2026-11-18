@@ -11,3 +11,7 @@ Solución: Se implemento self.app.app_context(), selft.ctx.push(), y self.ctx.po
 Validacion de rutas protegidas
 Problema: Verificar que los usuarios no autenticados no pudieran acceder al catalogo de juegos.
 Solucion:Mediante las peubas se comprobo que las peticiones sin secion activa hacia juegos devuelven el codigo http 302 y redirigen hacia el login para que ingresen sus datos. 
+
+
+![CI](https://github.com/alondralozano5276-commits/Pruebas_unitarias_proyecto_Flask/actions/workflows/ci.yml/badge.svg)
+[![Coverage](https://codecov.io/gh/alondralozano5276-commits/Pruebas_unitarias_proyecto_Flask/branch/main/graph/badge.svg)](https://codecov.io/gh/alondralozano5276-commits/Pruebas_unitarias_proyecto_Flask) 
